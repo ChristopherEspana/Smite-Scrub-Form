@@ -7,9 +7,18 @@
     <h1 id="tittle">Smite Scrub Survey Form</h1>
     <p id="description">I am a scrub. You are a scrub. We are all scrubs.</p>
     <form id="survey-form">
-        <label id="name-label"><input id="name" type="text" placeholder="Please enter your name"/></label>
-        <label id="email-label"><input id="email" type="email" placeholder="Please enter your email"/></label>
-        <label id="number-label"><input id="number" type="number" min="10" max="99" placeholder="Age"/></label>
+        <label id="name-label">Name<input id="name" type="text" placeholder="Please enter your name"/></label>
+        <label id="email-label">Email<input id="email" type="email" placeholder="Please enter your email"/></label>
+        <label id="number-label">Age<input id="number" type="number" min="10" max="99" placeholder="Age"/></label>
+        <p>What is your favorite role to play?</p>
+        <select name="role" id="dropdown" required>
+            <option disabled selected value>Select a role</option>
+            <option value="assassin">Assassin</option>
+            <option value="guardian">Guardian</option>
+            <option value="hunter">Hunter</option>
+            <option value="mage">Mage</option>
+            <option value="warrior">Warrior</option>
+        </select>
     </form>
 </body>
 </html>
