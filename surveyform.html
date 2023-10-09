@@ -2,37 +2,64 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css" />
-    <title></title>
 </head>
 <body>
     <h1 id="tittle">Smite Scrub Survey Form</h1>
     <p id="description">I am a scrub. You are a scrub. We are all scrubs.</p>
     <form id="survey-form">
-        <label id="name-label">Name<input id="name" type="text" placeholder="Please enter your name"/></label>
-        <label id="email-label">Email<input id="email" type="email" placeholder="Please enter your email"/></label>
-        <label id="number-label">Age<input id="number" type="number" min="10" max="99" placeholder="Age"/></label>
-        <p>What is your favorite role to play?</p>
-        <select name="role" id="dropdown" required>
-            <option disabled selected value>Select a role</option>
-            <option value="assassin">Assassin</option>
-            <option value="guardian">Guardian</option>
-            <option value="hunter">Hunter</option>
-            <option value="mage">Mage</option>
-            <option value="warrior">Warrior</option>
-        </select>
-        <p>Would you recommend Smite to a friend?</p>
-        <label><input type="radio" name="recommend" value="yes" required/>Yes</label>
-        <label><input type="radio" name="recommend" value="no" required/>No</label>
+        <div>
+            <label id="name-label">Name
+                <input id="name" type="text" placeholder="Please enter your name"/>
+            </label>
+        </div>
+        <div>
+            <label id="email-label">Email
+                <input id="email" type="email" placeholder="Please enter your email"/></label>
+        </div>
+        <div>
+            <label id="number-label">Age
+                <input id="number" type="number" min="10" max="99" placeholder="Age"/></label>
+        </div>
+        <div>
+            <p>What is your favorite role to play?</p>
+            <select name="role" id="dropdown" required>
+                <option disabled selected value>Select a role</option>
+                <option value="assassin">Assassin</option>
+                <option value="guardian">Guardian</option>
+                <option value="hunter">Hunter</option>
+                <option value="mage">Mage</option>
+                <option value="warrior">Warrior</option>
+            </select>
+        </div>
+        <div>
+            <p>Would you recommend Smite to a friend?</p>
+            <label>
+                <input type="radio" name="recommend" value="yes" required/>Yes</label>
+            <label>
+                <input type="radio" name="recommend" value="no" required/>No</label>
+        </div>
+        <div>
         <p>How could Smite be improved?</p>
-            <label><input name="improve" type="checkbox" value="fixServers">Fix Servers</label>
-            <label><input name="improve" type="checkbox" value="remakeEngine">Remake Engine</label>
-            <label><input name="improve" type="checkbox" value="reworkItems">Rework Items</label>
-            <label><input name="improve" type="checkbox" value="adjustAbilities">Adjust Abilities</label>
-            <label><input name="improve" type="checkbox" value="uiAdjusments">UI Adjustments</label>
-            <label><input name="improve" type="checkbox" value="reworkConquest">Rework Conquest</label>
-        <p>Please unleash your frustation here</p>
-        <textarea id="comments" name="comment" placeholder="Let your mind free..."></textarea>
-        <button type="submit" id="submit">Submit</button>
+            <label>
+                <input name="improve" type="checkbox" value="fixServers">Fix Servers</label>
+            <label>
+                <input name="improve" type="checkbox" value="remakeEngine">Remake Engine</label>
+            <label>
+                <input name="improve" type="checkbox" value="reworkItems">Rework Items</label>
+            <label>
+                <input name="improve" type="checkbox" value="adjustAbilities">Adjust Abilities</label>
+            <label>
+                <input name="improve" type="checkbox" value="uiAdjusments">UI Adjustments</label>
+            <label>
+                <input name="improve" type="checkbox" value="reworkConquest">Rework Conquest</label>
+        </div>
+        <div>
+            <p>Please unleash your frustation here</p>
+            <textarea id="comments" name="comment" placeholder="Let your mind free..."></textarea>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
     </form>
 </body>
 </html>
