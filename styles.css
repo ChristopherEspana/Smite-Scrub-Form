@@ -1,0 +1,48 @@
+.chest{
+    width: 20%;
+    margin: 2rem auto;
+    border-radius: 1em;
+    background-color:#335183;
+    opacity: 0.8;
+}
+
+h1,#description{
+    text-align: center;
+}
+
+#description{
+    font-style: italic;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+}
+
+body{
+    
+    font-size: 1rem;
+    color: #ffce00;
+    font-weight: 600;
+    margin: 0;
+    background-image: url(https://i.ytimg.com/vi/K6BnLHI_jY8/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+label{
+    display: flex;
+}
+
+div{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.20rem;
+}
+
+.submit{
+    display:block;
+    width: 20%;
+}
